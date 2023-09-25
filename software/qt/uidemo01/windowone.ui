@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>windowOne</class>
+ <widget class="QDialog" name="windowOne">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>10</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 23px;
+color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>录制静态手势</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>310</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 23px;
+color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>选择你想要的功能：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>240</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 23px;
+color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>为你的手势命名：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>240</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>390</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: rgb(221, 220, 220); /*背景色*/ 
+	border-style: outset;
+	border-width: 2px;
+	border-radius:5px; /*边界圆滑*/
+	border-color: #8B7355;
+	font: bold 21px;
+	min-width:2em;
+	color:black; /*字体颜色*/
+    height:35px;
+	padding: 5px;
+}
+ 
+QPushButton:hover
+{
+	background-color: rgb(172, 171, 170);
+}
+ 
+QPushButton:pressed
+{
+	background-color: rgb(161, 158, 160); /*伪状态经过时背景色*/ 
+	border-style: inset;
+}
+QPushButton:!enabled{
+	background-color: rgb(161, 158, 160);
+	border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>确定添加</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>390</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: rgb(221, 220, 220); /*背景色*/ 
+	border-style: outset;
+	border-width: 2px;
+	border-radius:5px; /*边界圆滑*/
+	border-color: #8B7355;
+	font: bold 21px;
+	min-width:2em;
+	color:black; /*字体颜色*/
+    height:35px;
+	padding: 5px;
+}
+ 
+QPushButton:hover
+{
+	background-color: rgb(172, 171, 170);
+}
+ 
+QPushButton:pressed
+{
+	background-color: rgb(161, 158, 160); /*伪状态经过时背景色*/ 
+	border-style: inset;
+}
+QPushButton:!enabled{
+	background-color: rgb(161, 158, 160);
+	border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>重新录制</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>160</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 23px;
+color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>当前状态：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>160</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 23px;
+color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>录制准备中</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>461</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 23px;
+color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>请于5秒之后做出手势，并保持3秒左右</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_17">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>310</y>
+     <width>181</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox
+{
+	background-color: rgb(221, 220, 220); /*背景色*/ 
+	border-style: outset;
+	border-width: 2px;
+	border-radius:5px; /*边界圆滑*/
+	border-color: #8B7355;
+	font: bold 21px;
+	min-width:2em;
+	color:black; /*字体颜色*/
+    height:35px;
+	padding: 5px;
+}
+ 
+QComboBox:hover
+{
+	background-color: rgb(172, 171, 170);
+}
+ 
+QComboBox:pressed
+{
+	background-color: rgb(161, 158, 160); /*伪状态经过时背景色*/ 
+	border-style: inset;
+}
+QComboBox:!enabled{
+	background-color: rgb(161, 158, 160);
+	border-style: inset;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>播放/暂停</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>方向右键</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>方向左键</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>方向上键</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>方向下键</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>静音</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>增大音量</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>减小音量</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>下一曲</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>上一曲</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>打开计算器</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>打开电子邮件</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>打开浏览器主页</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>撤回(ctrl+Z)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>全选(ctrl+A)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>保存(ctrl+S)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>选择性截图</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

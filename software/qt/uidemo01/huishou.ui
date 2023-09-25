@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>huiShou</class>
+ <widget class="QDialog" name="huiShou">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>20</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 30px;
+color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>选择你想要恢复的手势</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>120</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 26px;
+color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>210</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 26px;
+color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>480</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: rgb(221, 220, 220); /*背景色*/ 
+	border-style: outset;
+	border-width: 2px;
+	border-radius:5px; /*边界圆滑*/
+	border-color: #8B7355;
+	font: bold 21px;
+	min-width:2em;
+	color:black; /*字体颜色*/
+    height:35px;
+	padding: 5px;
+}
+ 
+QPushButton:hover
+{
+	background-color: rgb(172, 171, 170);
+}
+ 
+QPushButton:pressed
+{
+	background-color: rgb(161, 158, 160); /*伪状态经过时背景色*/ 
+	border-style: inset;
+}
+QPushButton:!enabled{
+	background-color: rgb(161, 158, 160);
+	border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>确定回收</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>120</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox {
+    background-color: white;
+    color: white;
+
+}
+QCheckBox::indicator:unchecked {
+    background-color: rgb(242, 242, 249);
+    color:rgb(242, 242, 249);
+    image: url(:/C:/Users/DELL/Desktop/unchecked.png); 
+    width: 30px;
+    height: 30px;
+}
+QCheckBox::indicator:checked {
+    image: url(:/C:/Users/DELL/Desktop/checked.png); 
+    width: 30px;
+    height: 30px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>210</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox {
+    background-color: white;
+    color: white;
+
+}
+QCheckBox::indicator:unchecked {
+    background-color: rgb(242, 242, 249);
+    color:rgb(242, 242, 249);
+    image: url(:/C:/Users/DELL/Desktop/unchecked.png); 
+    width: 30px;
+    height: 30px;
+}
+QCheckBox::indicator:checked {
+    image: url(:/C:/Users/DELL/Desktop/checked.png); 
+    width: 30px;
+    height: 30px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
