@@ -1,7 +1,9 @@
 
 清华大学第26届硬件设计大赛一等奖作品
 
+
 苯人第一次开源，很多地方写的不到位，请谅解，欢迎提出作品修改意见
+
 
 前言：由于时间有限，本项目中有很多小坑尚未填上，例如：
 
@@ -36,5 +38,7 @@
 补充：
 
 1.PCB有参考稚晖君，有小修改
+
+
 2.unity3D手部素材来源：https://blog.csdn.net/CTangZe/article/details/127111280?spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-5-127111280-blog-107633540.235%5Ev31%5Epc_relevant_increate_t0_download_v2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-5-127111280-blog-107633540.235%5Ev31%5Epc_relevant_increate_t0_download_v2&utm_relevant_index=9
 
