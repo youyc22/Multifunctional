@@ -22,3 +22,12 @@
 
 ![image](https://github.com/youyc22/Mutifunctional-Bluetooth-Gloves/assets/125688164/55608a58-f186-438e-b81b-7eef70ba0d1d)
 
+
+
+![420585d625dbd6204b70ddfdd70e8ea](https://github.com/youyc22/Mutifunctional-Bluetooth-Gloves/assets/125688164/4e81d3d7-4906-4351-86bd-710800b1af84)
+
+![image](https://github.com/youyc22/Mutifunctional-Bluetooth-Gloves/assets/125688164/8d39bcfb-90db-4a99-9fe1-3a31272f9942)
+
+
+![76cd5ea643601b938eb1901df2c9664](https://github.com/youyc22/Mutifunctional-Bluetooth-Gloves/assets/125688164/877ac8b8-3c0a-4296-9d2e-5fdb1de5f57c)
+
